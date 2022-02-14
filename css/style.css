@@ -31,16 +31,15 @@ body {
   padding-bottom: 15%;
   background:transparent;
   border-style:none; 
-  font-size:60px;
+  font-size:70px;
   color: #fff;
   opacity: 0;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   white-space: pre-line;
-  text-align: justify;
   -moz-text-align-last: left; /* Firefox 12+ */
   text-align-last: left;
   text-align: left;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.8;
 }
 
