@@ -1,14 +1,12 @@
 html,
 body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Helvetica Neue", Helvetica, Tahoma, Arial,"PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   width: 100%;
   height: 100%;
   /* min-width: 500px;
   min-height: 500px; */
   overflow: hidden;
   display:flex;
-  -webkit-transform-style: preserve-3d; 
-  -webkit-backface-visibility: hidden; 
-  -webkit-perspective: 1000;
 }
 
 .container {
@@ -19,9 +17,12 @@ body {
 
 }
 
-.open .heart-main {
+.open .heart {
   -webkit-animation: open 4s;
           animation: open 4s;
+  -webkit-transform-style: preserve-3d; 
+  -webkit-backface-visibility: hidden; 
+  -webkit-perspective: 1000; 
   transform: scale(100);
   transition: all 0.5s ease;
 }
@@ -34,7 +35,7 @@ body {
   font-size:60px;
   color: #fff;
   opacity: 0;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  text-shadow: 3px 5px 4px rgba(0,0,0,0.5);
   white-space: pre-line;
   text-align: justify;
   -moz-text-align-last: center; /* Firefox 12+ */
@@ -53,8 +54,8 @@ body {
   z-index: 100;
   width: 80%;
   height: 100%;
-  -webkit-animation: show 3s;
-          animation: show 3s;
+  -webkit-animation: show 2s;
+          animation: show 2s;
 }
 
 .heart {
