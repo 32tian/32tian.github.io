@@ -37,7 +37,7 @@ body {
   -moz-text-align-last: center; /* Firefox 12+ */
   text-align-last: center;
   text-align: center;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.8;
 }
 
