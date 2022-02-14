@@ -8,18 +8,68 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="./site.webmanifest">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./css/normalize.min.5.0.0.css">
 
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 <body>
   <!-- partial:index.partial.html -->
-  <div class="heart heart-bg"></div>
-  <div class="heart heart-main"></div>
+  <div class="container" id="container">
+    <div class="heart heart-bg"></div>
+    <div class="heart heart-main" onclick="openHeart()"></div>
+    <textarea id="poem" class="text" readonly>
+      我爱你
+      不只因为你的样子
+      还因为
+      和你在一起时
+      我的样子
+      我爱你
+      不只因为你为我而做的事
+      还因为
+      为了你
+      我能做成的事
+      我爱你
+      因为你能唤出
+      我最真的那部分
+      我爱你
+      因为你穿越我心灵的旷野
+      如同阳光穿透水晶般容易
+      我的傻气
+      我的弱点
+      在你的目光里几乎不存在
+      而我心里最美丽的地方
+      却被你的光芒照的通亮
+      别人都不曾费心走那么远
+      别人都觉得寻找太麻烦
+      所以没人发现过我的美丽
+      所以没人到过这里
+      我爱你
+      因为你将我的生活化腐朽为神奇
+      因为有你
+      我的生命
+      不再是平凡的旅店
+      而成为了恢弘的庙宇
+      我日复一日的工作里
+      不再充满抱怨
+      而是美妙的旋律
+      我爱你
+      因为你比信念更能使我的生活变得无比美好
+      因为你比命运更能使我的生活变得充满欢乐
+      而你做出这一切的一切
+      不费一丝力气
+      一句言辞
+      一个暗示
+      你做出这一切的一切
+      只是因为你就是你
+      毕竟
+      这也许就是爱的含义
+    </textarea>
+  </div>
   <!-- partial -->
-
+  <script src='./js/jquery.min.3.31.js'></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
