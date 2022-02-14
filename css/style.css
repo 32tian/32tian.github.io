@@ -7,6 +7,9 @@ body {
   min-height: 500px; */
   overflow: hidden;
   display:flex;
+  -webkit-transform-style: preserve-3d; 
+  -webkit-backface-visibility: hidden; 
+  -webkit-perspective: 1000; 
 }
 
 .container {
@@ -14,17 +17,21 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-
-}
-
-.open .heart {
-  -webkit-animation: open 4s;
-          animation: open 4s;
   -webkit-transform-style: preserve-3d; 
   -webkit-backface-visibility: hidden; 
   -webkit-perspective: 1000; 
+}
+
+.open .heart {
+  -animation: open 4s;
+          animation: open 4s;
   transform: scale(100);
+  -webkit-transform: scale(100);
   transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -webkit-transform-style: preserve-3d; 
+  -webkit-backface-visibility: hidden; 
+  -webkit-perspective: 1000; 
 }
 
 .text {
@@ -41,7 +48,7 @@ body {
   -moz-text-align-last: center; /* Firefox 12+ */
   text-align-last: center;
   text-align: center;
-  font-weight: bolder;
+  font-weight: bold;
   line-height: 1.8;
 }
 
