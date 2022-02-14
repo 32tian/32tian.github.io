@@ -16,7 +16,7 @@ body {
 
 }
 
-.open .heart {
+.open .heart-main {
   -webkit-animation: open 4s;
           animation: open 4s;
   transform: scale(100);
@@ -37,7 +37,7 @@ body {
   -moz-text-align-last: center; /* Firefox 12+ */
   text-align-last: center;
   text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
   line-height: 1.8;
 }
 
